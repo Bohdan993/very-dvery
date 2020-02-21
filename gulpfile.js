@@ -249,7 +249,7 @@ function libs() {
 
 
 function libsCSS() {
-    return src('./app/libsCSS/**/*.less')
+    return src('./app/libsLess/**/*.less')
         .pipe(sourcemap.init())
         .pipe(conct('libs.less'))
         .pipe(less())
